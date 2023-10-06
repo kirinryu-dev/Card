@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* layout  */
+
+main {
+  background-color: hsl(254, 6%, 58%);
+  
+}
+
+.card__container {
+  background-color: #222429;
+  width: 550px;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card__content {
+  width: 310px;
+  height: 750px;
+  background-color: hsl(231, 12%, 12%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+
+}
+
+img {
+  width: 310px;
+  height: 310px;
+  margin-bottom: 1em;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+}
+
+.card__content1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+
+}
+
+.card__status {
+  color: #F3BF99;
+  text-align: center;
+  margin-bottom: 0.5em;
+
+}
+
+span {
+  color: #F5F5F5;
+  text-align: center;
+  margin-bottom: 0.5em;
+
+}
+
+.card__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  padding: 1em;
+  width: 30%;
+  border-radius: 0.5rem;
+  margin: 1em;
+  color: white;
+  border: none;
+
+}
+
+.email {
+  color: black;
+
+}
+
+.fa-solid {
+  margin-right: 0.25em;
+}
+
+.linnk {
+  background-color: #5093E2;
+
+}
+
+.fa-linkedin,
+.fa-brands  {
+  color: white !important;
+  margin-right: 0.25em;
+}
+
+.card__apropos {
+  width: 240px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em 4.5em 2em 4.5em;
+  color: white;
+
+}
+
+h2 {
+  margin-bottom: 0.20em;
+  font-size: 1.5rem;
+}
+
+.text {
+  margin-bottom: 1rem;
+  font-size: small;
+  font-weight: 100 ;
+  margin-right: 4.5em;
+  
+}
+
+
+.card__social ul {
+  width: 100%;
+  height: 75px;
+  background-color: #161619;
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ul li {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.i {
+  color: #918E9B;
+  padding: 0.10em;
+  font-size: 2.2rem;
+}
+
+/* end  */
